@@ -6,14 +6,14 @@ export default class DisplayLottie extends Component {
   render() {
     const animationData = this.props.animationData;
     const defaultOptions = {
-      loop: true,
+      loop: false,
       autoplay: true,
       animationData: animationData
     };
 
     return (
       <Suspense fallback={<Loading />}>
-        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+        <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={"70%"}/>
       </Suspense>
     );
   }

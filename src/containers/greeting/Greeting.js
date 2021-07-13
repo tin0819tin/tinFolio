@@ -3,9 +3,11 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
+import productPeople from "../../assets/lottie/products.json"
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import Typewriter from "../../components/Type/Type"
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -21,12 +23,14 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
+              
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <Typewriter wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
+                {/* {greeting.title}{" "} */}
+                {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
               <p
                 className={
@@ -50,7 +54,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              <DisplayLottie animationData={productPeople} />
             ) : (
               <img
                 alt="man sitting on table"

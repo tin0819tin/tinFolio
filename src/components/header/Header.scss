@@ -24,6 +24,10 @@
   color: $myTitleColorDark !important;
 }
 
+.dark-menu .logo-name2{
+  color: $myTitleColorDark2 !important;
+}
+
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
@@ -69,8 +73,25 @@
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
+  // padding: 0 10px;
   color: #0F9D58;
+}
+
+.header .left {
+  padding-left: 10px;
+}
+
+.header .right {
+  padding-right: 10px;
+}
+
+.header .logo-name2 {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  // padding: 0 10px;
+  color: #F4B400;
 }
 
 /* menu */
