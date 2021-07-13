@@ -287,13 +287,13 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Medium Sharing",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
@@ -349,7 +349,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Interested to work with me or just want to say hi? My inbox is open for u 📩",
   number: "+92-3243454077",
   email_address: "saadpasta70@gmail.com"
 };

@@ -22,9 +22,14 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 
+  const scrollHeader = () => {
+    const header = document.getElementById("header");
+
+  }
+
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header id="header" className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name left">Guan</span>
@@ -48,12 +53,12 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -63,7 +68,7 @@ function Header() {
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">Writings</a>
             </li>
           )}
           {viewTalks && (

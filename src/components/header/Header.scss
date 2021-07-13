@@ -35,6 +35,15 @@
   margin: 0px auto;
 }
 
+.scroll{
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  padding: 15px 20px;
+  margin: 0px auto;
+  background-color: $lightBackground4;
+}
+
 .header ul {
   margin: 0;
   padding: 0;

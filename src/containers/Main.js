@@ -17,6 +17,7 @@ import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.scss";
 import Profile from "./profile/Profile";
+import Contact from "./contact/Contact"
 
 export default class Main extends Component {
   constructor(props) {
@@ -41,7 +42,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
+      <div className={this.state.isDark ? "dark-mode" : "light-mode"}>
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
