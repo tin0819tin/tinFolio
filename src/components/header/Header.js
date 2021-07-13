@@ -12,6 +12,7 @@ import {
   talkSection,
   achievementSection
 } from "../../portfolio";
+import { Fragment } from "react";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -49,35 +50,42 @@ function Header() {
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experience</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           {viewOpenSource && (
             <li>
               <a href="#opensource">Projects</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           {viewBlog && (
             <li>
               <a href="#blogs">Writings</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
+              <div className="header-button-border"></div>
             </li>
           )}
           <li>
             <a href="#contact">Contact Me</a>
+            <div className="header-button-border"></div>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

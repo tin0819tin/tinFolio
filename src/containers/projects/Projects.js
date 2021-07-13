@@ -4,6 +4,8 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import Particles from "../../components/Particles/Particles"
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -47,6 +49,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
+          <Particles style={{zIndex:-10}}/>
           <h1 className="project-title">Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {

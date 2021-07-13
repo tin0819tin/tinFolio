@@ -30,6 +30,7 @@ const socialMediaLinks = {
   // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/profile.php?id=100004455990562",
   medium: "https://tin0819tin.medium.com/",
+  instagram: "https://www.instagram.com/tin0819tin/",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false

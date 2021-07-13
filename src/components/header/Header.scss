@@ -16,9 +16,11 @@
   color: $textColorDark !important;
 }
 
-.dark-menu li a:hover {
-  background-color: $buttonColor !important;
-}
+// .dark-menu li a:hover {
+//   background-color: $buttonColor !important;
+// }
+
+
 
 .dark-menu .logo-name{
   color: $myTitleColorDark !important;
@@ -62,9 +64,42 @@
   text-decoration: none;
 }
 
-.header li a:hover,
+// .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+}
+
+
+.header li a:hover + .header-button-border {
+  // border-color: $educationCardBorder;
+  height: auto;
+  width: 100%;
+  border-color: #F4B400;
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.dark-menu li a:hover + .header-button-border {
+  // border-color: $educationCardBorder;
+  height: auto;
+  width: 100%;
+  border-color: $myTitleColorDark2;
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.header-button-border {
+  width: 0%;
+  border-top: 2px solid $lightBorder1;
+  // margin-bottom: 20px;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
 }
 
 .header .logo {
