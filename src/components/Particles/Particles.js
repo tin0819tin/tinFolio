@@ -10,7 +10,7 @@ function Particle() {
               value: "#8C8C81",
           },
           number: {
-            value: 160,
+            value: 600,
             density: {
               enable: true,
               value_area: 1500,

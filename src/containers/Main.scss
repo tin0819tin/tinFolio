@@ -6,6 +6,14 @@
   transition: "0.1s";
 }
 
-.light-mode {
+.light-mode > #greeting,
+.light-mode > #opensource,
+.light-mode > #blogs {
   background-color: $lightBackground1;
+}
+
+.light-mode > #skills,
+.light-mode > #contact,
+.light-mode > #footer {
+  background-color: $lightBackground2;
 }

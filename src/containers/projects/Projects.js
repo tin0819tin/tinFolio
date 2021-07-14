@@ -48,8 +48,10 @@ export default function Projects() {
   ) {
     return (
       <Suspense fallback={renderLoader()}>
-        <div className="main" id="opensource">
-          <Particles style={{zIndex:-10}}/>
+        <div className="main" id="opensource" style={{position: 'relative', overflow: "hidden"}}>
+          <div style={{position: 'absolute'}}>
+            <Particles />
+          </div>
           <h1 className="project-title">Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
@@ -64,7 +66,9 @@ export default function Projects() {
             href={socialMediaLinks.github}
             newTab={true}
           />
+         
         </div>
+        
       </Suspense>
     );
   } else {
