@@ -49,7 +49,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource" style={{position: 'relative', overflow: "hidden"}}>
-          <div style={{position: 'absolute'}}>
+          <div height="500vh" width="1000vw" style={{position: 'absolute'}}>
             <Particles />
           </div>
           <h1 className="project-title">Projects</h1>

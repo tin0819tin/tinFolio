@@ -9,7 +9,6 @@ export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
-      <div id="experience">
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
@@ -35,7 +34,6 @@ export default function WorkExperience() {
             </div>
           </div>
         </Fade>
-      </div>
     );
   }
   return null;

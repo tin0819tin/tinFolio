@@ -17,7 +17,8 @@ import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.scss";
 import Profile from "./profile/Profile";
-import Contact from "./contact/Contact"
+import Contact from "./contact/Contact";
+import Experience from "./experience/Experience";
 
 export default class Main extends Component {
   constructor(props) {
@@ -50,6 +51,7 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StackProgress />
+          <Experience />
           <Education />
           <WorkExperience />
           <Projects />
