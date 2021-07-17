@@ -1,10 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,900);
-$fontstack_heading: "Merriweather", sans-serif;
+@import "../../_globalColor";
+$fontstack_heading: 'Maven Pro', sans-serif;
 $fontstack_body: "Merriweather", sans-serif;
 body {
   font-size:100%;
   line-height:1.6;
 }
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0 5.5em;
+}
+
 .block-content {
   min-height:100vh;
 }
@@ -16,15 +26,14 @@ block-content p {
 }
 .block-content h2 {
 
-	text-align:center;
+	text-align:justify;
 	margin:1em 0 0 0;
-	font-size:2.5em;
 	line-height:1;
 	letter-spacing:0.02em;
 
 	@media all and (min-width:40em) {
 
-	font-size: 4.75em;
+	// font-size: 4.75em;
 
 	}
 }
@@ -40,11 +49,18 @@ block-content p {
 .heading-group {
 	margin:0 0 3em 0;
 }
+
+.experience-heading {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+}
+
 .content h3 {
 	font-size: 1.2em;
 	line-height:1.2;
 	letter-spacing:0.02em;
-  color:#fff;
+    color:#fff;
 
 	@media all and (min-width:40em) {
 
@@ -54,11 +70,8 @@ block-content p {
 }
 
 
-h1, h2, h3 {
-
+h2, h3 {
 	font-family: $fontstack_heading;
-	font-weight:900;
-
 }
 p {
 	font-family: $fontstack_body;
@@ -90,7 +103,7 @@ p {
 }
 .timeline-list {
 
-	//border-left: 5px solid #ccc;
+	// border-left: 5px solid #ccc;
 	padding-bottom: 1em;
 	position: relative;
 	max-width:700px;
@@ -99,38 +112,38 @@ p {
  
   &:before {
      content: "";
-     border-left: 5px solid #CCC;
-     left: -0.25em;
+     border-left: 5px solid #9F9F99;
+     left: -0.15em;
      top: 2em;
      height: 100%;
      position: absolute;
      bottom: 0;
      top: 0;
-    transform-origin:0 0;
-    animation:scaleVertical 3s 1s ease both 1;
+     transform-origin:0 0;
+     animation:scaleVertical 3s 1s ease both 1;
 	}
 
-	&:after {
-		content: "";
-        clear:both;
-		position: absolute;
-		bottom: 0px;
-		left: -1em;
-		width: 20px;
-		height: 20px;
-		border-radius: 50%;
-		background: none repeat scroll 0% 0% #DDD;
-		border: 5px solid #DDD;
-		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-        animation:revealScaleUp 0.75s 2.82s ease both 1;
-	}
+	// &:after {
+	// 	content: "";
+    //     clear:both;
+	// 	position: absolute;
+	// 	bottom: 0px;
+	// 	left: -1em;
+	// 	width: 20px;
+	// 	height: 20px;
+	// 	border-radius: 50%;
+	// 	background: none repeat scroll 0% 0% #9F9F99;
+	// 	border: 5px solid #9F9F99;
+	// 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    //     animation:revealScaleUp 0.75s 2.82s ease both 1;
+	// }
 }
 
-.t-block-teal {
-	background:#02aa9d;
-}
+// .t-block-teal {
+// 	background:#02aa9d;
+// }
 .t-block-teal h2 {
-	color:#fff;
+	color:#000;
 }
 .t-block-teal h3 {
 	color:#034944;
@@ -153,13 +166,13 @@ p {
 	content: "";
 	position: absolute;
 	top: 0px;
-	left: -4em;
-	width: 30px;
-	height: 30px;
+	left: -3.5em;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
-	background: none repeat scroll 0% 0% #02aa9d;
-	border: 5px solid #fff;
-  animation:revealScaleUp 0.75s 0s ease both 1;
+	background: none repeat scroll 0% 0% #9F9F99;
+	border: 5px solid $lightBackground2;
+    animation:revealScaleUp 0.75s 0s ease both 1;
 }
 .timeline-list {
    

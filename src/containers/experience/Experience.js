@@ -10,7 +10,7 @@ export default function Experience() {
     const {isDark} = useContext(StyleContext);
 
     return (
-        <div class="experience-container" id="experience">
+        <div className="experience-container" id="experience">
             <WorkExperienceTL />
             <EducationTL />
         </div>
