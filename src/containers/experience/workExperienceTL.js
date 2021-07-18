@@ -1,9 +1,20 @@
 import React, {createRef, useContext} from "react";
 import StyleContext from "../../contexts/StyleContext";
 import './Experience.scss';
+import {workExperiences} from "../../portfolio";
 
 export default function WorkExperienceTL () {
-    
+    const {isDark} = useContext(StyleContext);
+
+    const GetDescBullets = ({descBullets}) => {
+        return descBullets
+          ? descBullets.map((item, i) => (
+              <li key={i} className="subTitle">
+                <p>{item}</p>
+              </li>
+            ))
+          : null;
+      };
 
     return (
         <section className="block-content t-block-teal l-block-spacing">
@@ -15,23 +26,31 @@ export default function WorkExperienceTL () {
                     </p> */}
                 </header>
                 <ul className="timeline-list">
-                    <li>
-                        <div className="content">
-                            <h3>A timeline?</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-                            </p>
-                        </div>
-                        <img />
-                    </li>
-                    <li>
-                        <div className="content">
-                            <h3>A railway map?</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-                            </p>
-                        </div>
-                    </li>
+                    {workExperiences.experience.map((card, index) => {
+                        return(
+                            <li key={index}>
+                                <div className="experience-cards">
+                                    <div className="content">
+                                        <div className="content-header">
+                                            <h3 style={{marginBottom:""}}>{card.role} </h3>
+                                            <h5>{card.date}</h5>
+                                            <h3 className="experience-company">{card.company}</h3>
+                                        </div>
+                                        <ul>
+                                            <GetDescBullets descBullets={card.descBullets}/>
+                                        </ul>
+                                    </div>
+                                    <div className="experience-logo-container">
+                                        <img 
+                                            className="experience-logo"
+                                            src={card.companylogo}
+                                        />
+                                    </div>
+                                </div>
+                            </li>
+                        ); 
+                    })}
+                    
                 </ul>							
             </div>
         </section>

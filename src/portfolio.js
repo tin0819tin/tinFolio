@@ -117,10 +117,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "National Taiwan University",
+      logo: require("./assets/images/ntuLogo.png"),
+      subHeader: "Bacherlor of Science in Electrical Engineering",
+      duration: "Sep. 2017 - Present",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -128,10 +128,10 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "University of California Berkeley",
+      logo: require("./assets/images/berkeleyLogo.png"),
+      subHeader: "Summer Session",
+      duration: "Jul. 2019 - Aug. 2019",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -165,30 +165,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "Jul. 2021 – Present",
+      desc: "Develop strategic solutions with Azure for Microsoft partners.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ],
+      tags: [
+        "Azure", "FullStack Development", "IoT"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Back-End Developer Intern",
+      company: "Aiello",
+      companylogo: require("./assets/images/aielloLogo.png"),
+      date: "Jul. 2020 – Aug. 2020",
+      desc: "Designed and developed language agnostic RESTful APIs using ASP .NET Core on conversational AIoT voice service and deployed PaaS solutions on Azure service for more than 30 business customers.",
+      descBullets: [
+        "Pioneer to implemented manipulations and transactions of Neo4j and SQL without concurrent issues.",
+        "Created and executed  more than 100 automated test cases using MSTest, Swagger and NLog to debug, identify and document the program bugs.",
+        "Led and implemented CI process for development using Bitbucket pipeline to increase delivery efficiency by 20\%."
+      ],
+      tags: [
+        "Azure", "REST-API", "Neo4j", "SQL", "Swagger"
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    
   ]
 };
 

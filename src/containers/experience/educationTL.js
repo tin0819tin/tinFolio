@@ -1,9 +1,22 @@
 import React, {createRef, useContext} from "react";
 import StyleContext from "../../contexts/StyleContext";
 import './Experience.scss';
+import {educationInfo} from "../../portfolio";
 
 
 export default function EducationTL () {
+
+
+    const GetDescBullets = ({descBullets}) => {
+        return descBullets
+          ? descBullets.map((item, i) => (
+              <li key={i} className="subTitle">
+                {item}
+              </li>
+            ))
+          : null;
+      };
+
     return (
         <section className="block-content t-block-teal l-block-spacing">
         <div className="l-contained">
@@ -14,22 +27,29 @@ export default function EducationTL () {
                 </p> */}
             </header>
             <ul className="timeline-list">
-                <li>
-                    <div className="content">
-                        <h3>A timeline?</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div className="content">
-                        <h3>A railway map?</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-                        </p>
-                    </div>
-                </li>
+            {educationInfo.schools.map((card, index) => {
+                        return(
+                            <li key={index}>
+                                <div className="experience-cards">
+                                    <div className="content">
+                                        <h3>{card.schoolName} </h3>
+                                        <h5>{card.subHeader}</h5>
+                                        <h5>{card.duration}</h5>
+                                        <h4>{card.desc}</h4>
+                                        <ul>
+                                            <GetDescBullets descBullets={card.descBullets}/>
+                                        </ul>
+                                    </div>
+                                    <div className="experience-logo-container">
+                                        <img 
+                                            className="experience-logo round"
+                                            src={card.logo}
+                                        />
+                                    </div>
+                                </div>
+                            </li>
+                        ); 
+                    })}
             </ul>							
         </div>
     </section>
