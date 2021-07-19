@@ -61,6 +61,8 @@
   display: block;
   padding: 15px 20px;
   color: $textColor;
+  font-weight: 500;
+  font-size: 1.2em;
   text-decoration: none;
 }
 
@@ -108,13 +110,14 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  // font-family: "Agustina Regular";
+  font-weight: 500;
   // margin-top: 10px;
   line-height: normal;
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   // padding: 0 10px;
@@ -130,8 +133,6 @@
 }
 
 .header .logo-name2 {
-  font-family: "Agustina Regular";
-  font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   // padding: 0 10px;

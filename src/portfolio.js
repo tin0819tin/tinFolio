@@ -171,8 +171,8 @@ const workExperiences = {
       date: "Jul. 2021 – Present",
       desc: "Develop strategic solutions with Azure for Microsoft partners.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Develop strategic solutions with Azure for Microsoft partners.",
+        "Pioneer to implement the Azure IoT service for manufacturers using IoT hub, Azure function."
       ],
       tags: [
         "Azure", "FullStack Development", "IoT"
@@ -190,7 +190,7 @@ const workExperiences = {
         "Led and implemented CI process for development using Bitbucket pipeline to increase delivery efficiency by 20\%."
       ],
       tags: [
-        "Azure", "REST-API", "Neo4j", "SQL", "Swagger"
+        "REST-API", "Azure",  "Neo4j", "SQL", "Swagger"
       ]
     },
     

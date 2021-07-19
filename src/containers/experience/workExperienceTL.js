@@ -14,7 +14,19 @@ export default function WorkExperienceTL () {
               </li>
             ))
           : null;
-      };
+    };
+
+    const GetDescTags = ({tags}) => {
+        return tags
+        ? tags.map((tag, i) => (
+            // <div></div>
+            <span key={i} className="experinece-tag">
+                {tag} 
+            </span>
+            
+        ))
+        : null;
+    };
 
     return (
         <section className="block-content t-block-teal l-block-spacing">
@@ -32,11 +44,11 @@ export default function WorkExperienceTL () {
                                 <div className="experience-cards">
                                     <div className="content">
                                         <div className="content-header">
-                                            <h3 style={{marginBottom:""}}>{card.role} </h3>
+                                            <h3 >{card.role} </h3>
                                             <h5>{card.date}</h5>
                                             <h3 className="experience-company">{card.company}</h3>
                                         </div>
-                                        <ul>
+                                        <ul className="experience-bullet">
                                             <GetDescBullets descBullets={card.descBullets}/>
                                         </ul>
                                     </div>
@@ -46,6 +58,9 @@ export default function WorkExperienceTL () {
                                             src={card.companylogo}
                                         />
                                     </div>
+                                </div>
+                                <div className="experinece-tag-container">
+                                    <GetDescTags tags={card.tags}/>
                                 </div>
                             </li>
                         ); 

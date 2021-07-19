@@ -5,6 +5,7 @@ $fontstack_body: "Merriweather", sans-serif;
 body {
   font-size:100%;
   line-height:1.6;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .experience-container {
@@ -15,34 +16,34 @@ body {
     padding: 0 5.5em;
 }
 
+.block-content {
+    min-height:100vh;
+  }
+
+
+.block-content h2 {
+  
+      text-align:justify;
+      margin:1em 0 0 0;
+      line-height:1;
+      letter-spacing:0.02em;
+      font-weight: 700;
+  
+      @media all and (min-width:40em) {
+  
+      // font-size: 4.75em;
+  
+      }
+  }
+
 .experience-cards {
     width: 35vw;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1.5em;
 }
 
-.block-content {
-  min-height:100vh;
-}
-.block-content p {
-	font-size:1.1em;
-	line-height:1.5;
-	-webkit-font-smoothing: antialiased;
-	margin:0 auto 1em auto;
-}
-.block-content h2 {
 
-	text-align:justify;
-	margin:1em 0 0 0;
-	line-height:1;
-	letter-spacing:0.02em;
-
-	@media all and (min-width:40em) {
-
-	// font-size: 4.75em;
-
-	}
-}
 .subtitle {
 
 	font-family: $fontstack_heading;
@@ -52,6 +53,7 @@ body {
 	font-size:1em;
 	margin:0.5em 0;
 }
+
 .heading-group {
 	margin:0 0 3em 0;
 }
@@ -60,25 +62,43 @@ body {
     font-size: 56px;
     font-weight: 400;
     font-family: 'Maven Pro', sans-serif;
+    color:#000;
 }
 
 .content{
     width: 27vw;
+    font-size: 16px;
 }
 
-// .content-header h3, h5{
-//     margin-bottom: 0;
-// }
+.content-header {
+    margin-bottom: 3em;
+    line-height: 0.2;
+}
 
 .content h3 {
 	font-size: 1.2em;
-	line-height:1.2;
+	// line-height:1.2;
+    font-weight: 500;
 	letter-spacing:0.02em;
     color:#3F403A;
     font-family: $fontstack_heading;
 	@media all and (min-width:40em) {
 
 	font-size: 2em;
+
+	}
+}
+
+.content h5 {
+	font-size: 1.2em;
+	// line-height:1.2;
+    font-weight: 400;
+	letter-spacing:0.02em;
+    color:#BEBFAD;
+    font-family: $fontstack_heading;
+	@media all and (min-width:40em) {
+
+	font-size: 1.4em;
 
 	}
 }
@@ -93,18 +113,30 @@ body {
 	}
 }
 
-.content h5 {
-	font-size: 1.2em;
-	line-height:1.2;
-	letter-spacing:0.02em;
-    color:#BEBFAD;
-    font-family: $fontstack_heading;
-	@media all and (min-width:40em) {
-
-	font-size: 1.2em;
-
-	}
+.experience-bullet{
+    padding-left: 1.2em;
 }
+
+.experience-bullet li {
+    list-style-type: disc;
+}
+
+.content p {
+    font-size:1.1em;
+    font-weight: 500;
+    line-height:1.5;
+    -webkit-font-smoothing: antialiased;
+    margin:0 auto 1em auto;
+    color: #000;
+
+    @media all and (min-width:40em) {
+
+    font-size: 1.2em;
+
+    }
+}
+
+
 
 .experience-logo-container {
     width: 8vw;
@@ -125,11 +157,25 @@ body {
     border-radius: 50%;
 }
 
-
-p {
-	font-family: $fontstack_body;
-	line-height:1.5;
+.experinece-tag-container{
+    font-weight: 500;
+    font-size: 1.2em;
+    width: 30vw;
+    
 }
+
+.experinece-tag {
+    display: inline-block;
+    border-width:medium;
+    // border-style: solid;
+    border-radius: 10px;
+    border-color: #E7FEF4;
+    background-color: #E7FEF4;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+}
+
+
 
 .l-block-spacing {	
 	min-height:80vh;
@@ -192,18 +238,6 @@ p {
 	// }
 }
 
-// .t-block-teal {
-// 	background:#02aa9d;
-// }
-.t-block-teal h2 {
-	color:#000;
-}
-// .t-block-teal h3 {
-// 	color:#034944;
-// }
-.t-block-teal p {
-	color:#034944;
-}
 //list animation 
 //scale in the circle, follwoed by the list item
 //the border must also animate in.
