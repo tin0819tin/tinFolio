@@ -52,7 +52,7 @@ export default class Main extends Component {
           <Skills />
           <StackProgress />
           <Experience />
-          <Education />
+          {/* <Education /> */}
           {/* <WorkExperience /> */}
           <Projects />
           <StartupProject />

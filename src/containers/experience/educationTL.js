@@ -32,13 +32,12 @@ export default function EducationTL () {
                             <li key={index}>
                                 <div className="experience-cards">
                                     <div className="content">
-                                        <h3>{card.schoolName} </h3>
-                                        <h5>{card.subHeader}</h5>
-                                        <h5>{card.duration}</h5>
+                                        <div className="content-header">
+                                            <h3>{card.schoolName} </h3>
+                                            <h5 className="school-subheader">{card.subHeader}</h5>
+                                            <h5>{card.duration}</h5>
+                                        </div>
                                         <h4>{card.desc}</h4>
-                                        <ul>
-                                            <GetDescBullets descBullets={card.descBullets}/>
-                                        </ul>
                                     </div>
                                     <div className="experience-logo-container">
                                         <img 
@@ -46,6 +45,7 @@ export default function EducationTL () {
                                             src={card.logo}
                                         />
                                     </div>
+                        
                                 </div>
                             </li>
                         ); 

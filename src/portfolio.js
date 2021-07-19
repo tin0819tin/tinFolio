@@ -119,20 +119,20 @@ const educationInfo = {
     {
       schoolName: "National Taiwan University",
       logo: require("./assets/images/ntuLogo.png"),
-      subHeader: "Bacherlor of Science in Electrical Engineering",
+      subHeader: "B.S. in Electrical Engineering",
       duration: "Sep. 2017 - Present",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participated in the research of soical live video streaming application to design third party tools for the industries and published 1 papers in IMC. ",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "University of California Berkeley",
+      schoolName: "UC Berkeley",
       logo: require("./assets/images/berkeleyLogo.png"),
       subHeader: "Summer Session",
       duration: "Jul. 2019 - Aug. 2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 5% in the program. Took courses about multimedia package design, journalism and public speaking.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]

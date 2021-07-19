@@ -89,6 +89,20 @@ body {
 	}
 }
 
+.content h4 {
+	font-size: 1.2em;
+	// line-height:1.2;
+    font-weight: 500;
+	letter-spacing:0.02em;
+    color:#000;
+    font-family: $fontstack_heading;
+	@media all and (min-width:40em) {
+
+	font-size: 1.4em;
+
+	}
+}
+
 .content h5 {
 	font-size: 1.2em;
 	// line-height:1.2;
@@ -101,6 +115,12 @@ body {
 	font-size: 1.4em;
 
 	}
+}
+
+.content .school-subheader {
+    // line-height:1.2;
+    font-size: 1.6em;
+    color: #7F7F73;
 }
 
 .content .experience-company {

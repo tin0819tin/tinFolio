@@ -44,7 +44,7 @@ export default function WorkExperienceTL () {
                                 <div className="experience-cards">
                                     <div className="content">
                                         <div className="content-header">
-                                            <h3 >{card.role} </h3>
+                                            <h3  >{card.role} </h3>
                                             <h5>{card.date}</h5>
                                             <h3 className="experience-company">{card.company}</h3>
                                         </div>

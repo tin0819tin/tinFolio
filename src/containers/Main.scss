@@ -14,12 +14,12 @@ body {
 
 .light-mode > #greeting,
 .light-mode > #experience,
-.light-mode > #opensource,
 .light-mode > #blogs {
   background-color: $lightBackground1;
 }
 
 .light-mode > #skills,
+.light-mode > #opensource,
 .light-mode > #contact,
 .light-mode > #footer {
   background-color: $lightBackground2;
