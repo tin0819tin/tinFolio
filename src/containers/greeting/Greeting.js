@@ -7,7 +7,7 @@ import productPeople from "../../assets/lottie/products.json"
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import Typewriter from "../../components/Type/Type"
+import {TypeMain, TypeLoop} from "../../components/Type/Type"
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -28,7 +28,11 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                <Typewriter wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
+                <TypeMain wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
+                <span>
+                I'm
+                </span>
+                <TypeLoop wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
                 {/* {greeting.title}{" "} */}
                 {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>

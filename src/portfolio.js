@@ -190,7 +190,7 @@ const workExperiences = {
         "Led and implemented CI process for development using Bitbucket pipeline to increase delivery efficiency by 20\%."
       ],
       tags: [
-        "REST-API", "Azure",  "Neo4j", "SQL", "Swagger"
+        ".NET core", "C#", "REST-API", "Azure",  "Neo4j", "SQL", "Swagger", "NUnit", "Bitbucket"
       ]
     },
     
