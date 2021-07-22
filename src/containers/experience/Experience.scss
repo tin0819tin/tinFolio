@@ -41,6 +41,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1.5em;
+    justify-content: space-around;
+
+    @media all and (max-width:1380px) {
+
+      width: 70vw;
+    
+    }
 }
 
 
@@ -68,11 +75,23 @@ body {
 .content{
     width: 27vw;
     font-size: 16px;
+
+    @media all and (max-width:1380px) {
+
+      width: 54vw;
+    
+    }
 }
 
 .content-header {
     margin-bottom: 3em;
     line-height: 0.2;
+
+    @media all and (max-width:1540px) {
+
+      line-height: 1.0;
+    
+    }
 }
 
 .content h3 {
@@ -163,6 +182,12 @@ body {
     display: flex;
     justify-content:flex-end;
     padding-top: 5rem;
+
+    @media all and (max-width:1380px) {
+
+      width: 16vw;
+    
+    }
 }
 
 .experience-logo {
@@ -181,6 +206,12 @@ body {
     font-weight: 500;
     font-size: 1.2em;
     width: 30vw;
+
+    @media all and (max-width:1380px) {
+
+      width: 60vw;
+    
+    }
     
 }
 
@@ -212,7 +243,7 @@ body {
 	padding-left:1em;
 	padding-right:1em;
 
-	@media all and (min-width:40em) {
+	@media all and (min-width:1380px) {
 
 		padding-left:2em;
 		padding-right:2em;
@@ -227,7 +258,7 @@ body {
 	position: relative;
 	max-width:700px;
 	margin:0 auto;
-    list-style:none;
+  list-style:none;
  
   &:before {
      content: "";

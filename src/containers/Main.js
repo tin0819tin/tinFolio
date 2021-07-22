@@ -19,6 +19,7 @@ import "./Main.scss";
 import Profile from "./profile/Profile";
 import Contact from "./contact/Contact";
 import Experience from "./experience/Experience";
+import MySkill from "./mySkills/mySkill";
 
 export default class Main extends Component {
   constructor(props) {
@@ -49,6 +50,7 @@ export default class Main extends Component {
         >
           <Header />
           <Greeting />
+          <MySkill />
           <Skills />
           <StackProgress />
           <Experience />

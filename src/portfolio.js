@@ -64,10 +64,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -78,10 +74,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -96,10 +88,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -108,6 +96,106 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
+  mySkills: [
+    {
+      skillSummary: "FullStack Development",
+      softwareSkills: [
+        {
+          skillName: "html-5",
+          fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+          skillName: "css3",
+          fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "fab fa-js"
+        },
+        {
+          skillName: "reactjs",
+          fontAwesomeClassname: "fab fa-react"
+        },
+        {
+          skillName: "nodejs",
+          fontAwesomeClassname: "fab fa-node"
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "fab fa-node"
+        },
+        {
+          skillName: "npm",
+          fontAwesomeClassname: "fab fa-npm"
+        },
+        {
+          skillName: "sql-database",
+          fontAwesomeClassname: "fas fa-database"
+        },
+        {
+          skillName: "Neo4j",
+          fontAwesomeClassname: "fas fa-database"
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "fas fa-database"
+        },
+      ]
+    },
+    {
+      skillSummary: "Cloud & Infra",
+      softwareSkills: [
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "Google Cloud Platform",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "docker",
+          fontAwesomeClassname: "fab fa-docker"
+        }
+      ]
+    },
+    {
+      skillSummary: "Language & Framework",
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "C/C++",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "C# .NET",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "html-5",
+          fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+          skillName: "css3",
+          fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "fab fa-js"
+        },
+      ]
+    },
+
+
+  ],
+    
   display: true // Set false to hide this section, defaults to true
 };
 
