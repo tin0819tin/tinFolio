@@ -35,8 +35,38 @@
     border-bottom: 3px solid #000;
 }
 
+// .skill-logo-container {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+//     gap: 1rem 1rem;
+// }
+
 .skill-logo-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem 1rem;
-}
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .software-skill-inline > i {
+    // color: $subTitle;
+  }
+  
+  .software-skill-inline > i:hover {
+    color: $skillsColor;
+  }
+  .software-skill-inline > p {
+    color: $subTitle;
+    font-size: 10px;
+  }
+  .software-skill-inline > i:hover ~ p {
+    color: $skillsColor;
+  }

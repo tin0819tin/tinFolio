@@ -98,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
   ],
   mySkills: [
     {
-      skillSummary: "FullStack Development",
+      skillSummary: "Full Stack Development",
       softwareSkills: [
         {
           skillName: "html-5",
@@ -140,6 +140,10 @@ https://fontawesome.com/icons?d=gallery */
           skillName: "MongoDB",
           fontAwesomeClassname: "fas fa-database"
         },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "fas fa-database"
+        },
       ]
     },
     {
@@ -154,13 +158,17 @@ https://fontawesome.com/icons?d=gallery */
           fontAwesomeClassname: "fab fa-aws"
         },
         {
-          skillName: "Google Cloud Platform",
+          skillName: "GCP",
           fontAwesomeClassname: "fab fa-python"
         },
         {
-          skillName: "docker",
+          skillName: "Docker",
           fontAwesomeClassname: "fab fa-docker"
-        }
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "fab fa-docker"
+        },
       ]
     },
     {
@@ -175,7 +183,15 @@ https://fontawesome.com/icons?d=gallery */
           fontAwesomeClassname: "fab fa-aws"
         },
         {
-          skillName: "C# .NET",
+          skillName: "C#",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: ".NET core",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "Java",
           fontAwesomeClassname: "fab fa-python"
         },
         {
