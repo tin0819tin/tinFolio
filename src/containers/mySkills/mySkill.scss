@@ -60,8 +60,8 @@
     // color: $subTitle;
   }
   
-  .software-skill-inline > i:hover {
-    color: $skillsColor;
+  .software-skill-inline:hover {
+    transform: scale(1.05) !important;
   }
   .software-skill-inline > p {
     color: $subTitle;
@@ -69,4 +69,172 @@
   }
   .software-skill-inline > i:hover ~ p {
     color: $skillsColor;
+  }
+
+  .html:hover {
+    color: $html;
+  }
+
+  .html:hover ~ p {
+    color: $html;
+  }
+
+  .css:hover {
+    color: $css;
+  }
+
+  .css:hover ~ p {
+    color: $css;
+  }
+  
+  .jss:hover {
+    color: $jss;
+  }
+
+  .jss:hover ~ p {
+    color: $jss;
+  }
+
+  .react:hover {
+    color: $react;
+  }
+
+  .react:hover ~ p {
+    color: $react;
+  }
+
+  .node:hover {
+    color: $node;
+  }
+
+  .node:hover ~ p {
+    color: $node;
+  }
+
+  .flask:hover {
+    color: $flask;
+  }
+
+  .flask:hover ~ p {
+    color: $flask;
+  }
+
+  .npm:hover {
+    color: $npm;
+  }
+
+  .npm:hover ~ p {
+    color: $npm;
+  }
+
+  .mssql:hover {
+    color: $mssql;
+  }
+
+  .mssql:hover ~ p {
+    color: $mssql;
+  }
+
+  .neo4j:hover {
+    color: $neo4j;
+  }
+
+  .neo4j:hover ~ p {
+    color: $neo4j;
+  }
+
+  .mongo:hover {
+    color: $mongo;
+  }
+
+  .mongo:hover ~ p {
+    color: $mongo;
+  }
+
+  .git:hover {
+    color: $git;
+  }
+
+  .git:hover ~ p {
+    color: $git;
+  }
+
+  .azure:hover {
+    color: $azure;
+  }
+
+  .azure:hover ~ p {
+    color: $azure;
+  }
+
+  .aws:hover {
+    color: $aws;
+  }
+
+  .aws:hover ~ p {
+    color: $aws;
+  }
+
+  .gcp:hover {
+    color: $gcp;
+  }
+
+  .gcp:hover ~ p {
+    color: $gcp;
+  }
+
+  .docker:hover {
+    color: $docker;
+  }
+
+  .docker:hover ~ p {
+    color: $docker;
+  }
+
+  .k8s:hover {
+    color: $k8s;
+  }
+
+  .k8s:hover ~ p {
+    color: $k8s;
+  }
+
+  .python:hover {
+    color: $python;
+  }
+
+  .python:hover ~ p {
+    color: $python;
+  }
+
+  .cplus:hover {
+    color: $cplus;
+  }
+
+  .cplus:hover ~ p {
+    color: $cplus;
+  }
+  
+  .csharp:hover {
+    color: $csharp;
+  }
+
+  .csharp:hover ~ p {
+    color: $csharp;
+  }
+
+  .dotnet:hover {
+    color: $dotnet;
+  }
+
+  .dotnet:hover ~ p {
+    color: $dotnet;
+  }
+
+  .java:hover {
+    color: $java;
+  }
+
+  .java:hover ~ p {
+    color: $java;
   }

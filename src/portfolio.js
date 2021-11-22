@@ -102,47 +102,69 @@ https://fontawesome.com/icons?d=gallery */
       softwareSkills: [
         {
           skillName: "html-5",
-          fontAwesomeClassname: "fab fa-html5"
+          fontAwesomeClassname: "fab fa-html5",
+          style: "html",
+          color: "#E34F26" 
         },
         {
           skillName: "css3",
-          fontAwesomeClassname: "fab fa-css3-alt"
+          fontAwesomeClassname: "fab fa-css3-alt",
+          style: "css",
+          color: "#1572B6",
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "fab fa-js"
+          fontAwesomeClassname: "fab fa-js",
+          style: "jss",
+          color: "#F7DF1E",
         },
         {
           skillName: "reactjs",
-          fontAwesomeClassname: "fab fa-react"
+          fontAwesomeClassname: "fab fa-react",
+          style: "react",
+          color: "#61DAFB",
         },
         {
           skillName: "nodejs",
-          fontAwesomeClassname: "fab fa-node"
+          fontAwesomeClassname: "fab fa-node",
+          style: "node",
+          color: "#339933",
         },
         {
           skillName: "Flask",
-          fontAwesomeClassname: "fab fa-node"
+          fontAwesomeClassname: "fab fa-node",
+          style: "flask",
+          color: "#000000"
         },
         {
           skillName: "npm",
-          fontAwesomeClassname: "fab fa-npm"
+          fontAwesomeClassname: "fab fa-npm",
+          style: "npm",
+          color: "#CB3837",
         },
         {
           skillName: "sql-database",
-          fontAwesomeClassname: "fas fa-database"
+          fontAwesomeClassname: "fas fa-database",
+          style: "mssql",
+          color: "#CC2927"
         },
         {
           skillName: "Neo4j",
-          fontAwesomeClassname: "fas fa-database"
+          fontAwesomeClassname: "fas fa-database",
+          style: "neo4j",
+          color: "#008CC1"
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "fas fa-database"
+          fontAwesomeClassname: "fas fa-database",
+          style: "mongo",
+          color: "#47A248"
         },
         {
           skillName: "Git",
-          fontAwesomeClassname: "fas fa-database"
+          fontAwesomeClassname: "fas fa-database",
+          style: "git",
+          color: "#F05032"
         },
       ]
     },
@@ -151,23 +173,33 @@ https://fontawesome.com/icons?d=gallery */
       softwareSkills: [
         {
           skillName: "Azure",
-          fontAwesomeClassname: "fab fa-aws"
+          fontAwesomeClassname: "fab fa-aws",
+          style: "azure",
+          color: "#0078D4"
         },
         {
           skillName: "AWS",
-          fontAwesomeClassname: "fab fa-aws"
+          fontAwesomeClassname: "fab fa-aws",
+          style: "aws",
+          color: "#FF9900",
         },
         {
           skillName: "GCP",
-          fontAwesomeClassname: "fab fa-python"
+          fontAwesomeClassname: "fab fa-python",
+          style: "gcp",
+          color: "#4285F4"
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "fab fa-docker"
+          fontAwesomeClassname: "fab fa-docker",
+          style: "docker",
+          color: "#2496ED"
         },
         {
           skillName: "Kubernetes",
-          fontAwesomeClassname: "fab fa-docker"
+          fontAwesomeClassname: "fab fa-docker",
+          style: "k8s",
+          color: "#326CE5"
         },
       ]
     },
@@ -176,35 +208,51 @@ https://fontawesome.com/icons?d=gallery */
       softwareSkills: [
         {
           skillName: "Python",
-          fontAwesomeClassname: "fab fa-python"
+          fontAwesomeClassname: "fab fa-python",
+          style: "python",
+          color: "#3776AB",
         },
         {
           skillName: "C/C++",
-          fontAwesomeClassname: "fab fa-aws"
+          fontAwesomeClassname: "fab fa-aws",
+          style: "cplus",
+          color: "#00599C"
         },
         {
           skillName: "C#",
-          fontAwesomeClassname: "fab fa-python"
+          fontAwesomeClassname: "fab fa-python",
+          style: "csharp",
+          color: "#239120"
         },
         {
           skillName: ".NET core",
-          fontAwesomeClassname: "fab fa-python"
+          fontAwesomeClassname: "fab fa-python",
+          style: "dotnet",
+          color: "#512BD4"
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "fab fa-python"
+          fontAwesomeClassname: "fab fa-python",
+          style: "java",
+          color: "#007396"
         },
         {
           skillName: "html-5",
-          fontAwesomeClassname: "fab fa-html5"
+          fontAwesomeClassname: "fab fa-html5",
+          style: "html",
+          color: "#E34F26" 
         },
         {
           skillName: "css3",
-          fontAwesomeClassname: "fab fa-css3-alt"
+          fontAwesomeClassname: "fab fa-css3-alt",
+          style: "css",
+          color: "#1572B6",
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "fab fa-js"
+          fontAwesomeClassname: "fab fa-js",
+          style: "jss",
+          color: "#F7DF1E",
         },
       ]
     },
@@ -338,7 +386,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -404,20 +452,20 @@ const achievementSection = {
 const blogSection = {
   title: "Medium Sharing",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "May the power of software development, product management and entrepreneurship be with you.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@tin0819tin/%E9%96%8B%E7%99%BCapi%E5%88%9D%E9%AB%94%E9%A9%97-%E6%89%93%E9%80%A0%E4%BE%9B%E5%AF%A6%E9%9A%9B%E5%A0%B4%E6%99%AF%E6%87%89%E7%94%A8%E7%9A%84restful-api-%E6%9C%8D%E5%8B%99-1-bf88647f61ce",
+      title: "Develop RESTful API and micorservices in real-world scenarios-(1)",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to learn what is API and how to design API in 10 mins?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@tin0819tin/%E9%96%8B%E7%99%BCapi%E5%88%9D%E9%AB%94%E9%A9%97-%E6%89%93%E9%80%A0%E4%BE%9B%E5%AF%A6%E9%9A%9B%E5%A0%B4%E6%99%AF%E6%87%89%E7%94%A8%E7%9A%84restful-api-%E6%9C%8D%E5%8B%99-%E4%B8%8B-284432818927",
+      title: "Develop RESTful API and micorservices in real-world scenarios-(2)",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Tell you some interest experience about how to develop and test APIs and microservices."
     }
   ],
   display: true // Set false to hide this section, defaults to true

@@ -10,8 +10,9 @@ import {SiDotnet, SiHtml5, SiCss3, SiJavascript, SiReact,
     SiNodedotjs, SiFlask, SiNpm, SiMicrosoftsqlserver, SiNeo4J,
     SiMongodb, SiGit, SiMicrosoftazure, SiAmazonaws, SiGooglecloud,
     SiDocker, SiKubernetes, SiPython, SiCplusplus, SiCsharp,
-    SiJava, } from 'react-icons/si'
-
+    SiJava, } from 'react-icons/si';
+import Radium from 'radium';
+import ToolIcon from './ToolIcon.js';
 
 
 export default function MySkill(props) {
@@ -61,23 +62,32 @@ export default function MySkill(props) {
                             <h3>{skill.skillSummary}</h3>
                             <ul className="skill-logo-container">
                                 {skill.softwareSkills.map((skillLogo, k) => {
-                                    const ToolIcon = iconMap[skillLogo.skillName];
+                                    var TToolIcon = iconMap[skillLogo.skillName];
                                     // console.log(skillLogo.skillName);
-                                    
                                     return(
-                                        <li
-                                            key={k}
-                                            className="software-skill-inline"
-                                            name={skillLogo.skillName}
-                                        >
-                                        <ToolIcon style=""/>
-                                        {/* <i className={skillLogo.fontAwesomeClassname}></i> */}
-                                        <p>{skillLogo.skillName}</p>
-                                        </li>
-                                        // <img 
-                                        //     src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
-                                        // />
+                                        <ToolIcon skillLogo={skillLogo} k={k} TToolIcon={TToolIcon}/>
                                     );
+                                    
+                                    // ToolIcon = Radium(ToolIcon);
+                                    // console.log(skillLogo.color);
+                                    // var style = {
+                                    //     color: skillLogo.color,
+                                    //     ':hover' : {
+                                    //         color : skillLogo.color
+                                    //     }
+                                    // }
+
+                                    // return(
+                                    //     <li
+                                    //         key={k}
+                                    //         className="software-skill-inline"
+                                    //         name={skillLogo.skillName}
+                                    //     >
+                                    //     <ToolIcon className="toolIcon" style={style}/>
+                                    //     {/* <i className={skillLogo.fontAwesomeClassname}></i> */}
+                                    //     <p>{skillLogo.skillName}</p>
+                                    //     </li>
+                                    // );
                                 })}
                             </ul>
                         </div>
