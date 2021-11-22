@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Guan Ting",
-  title: "Hi all, I'm Tin",
+  title: "Hi all, I'm ",
   subTitle: emoji(
     "A CS student standing on the road of developer x product manager 🚀  I'm passionate about engineering, product and entrepreneurship. I'm eager to utilize my technical skills and business sense to create practical products for the real world."
   ),
@@ -209,7 +209,7 @@ const educationInfo = {
       logo: require("./assets/images/ntuLogo.png"),
       subHeader: "B.S. in Electrical Engineering",
       duration: "Sep. 2017 - Present",
-      desc: "Participated in the research of soical live video streaming application to design third party tools for the industries and published 1 papers in IMC. ",
+      desc: "Participated in the research of soical live video streaming application to design third party tools for the industries and published 1 papers in AINTEC2021. ",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -259,8 +259,8 @@ const workExperiences = {
       date: "Jul. 2021 – Present",
       desc: "Develop strategic solutions with Azure for Microsoft partners.",
       descBullets: [
-        "Develop strategic solutions with Azure for Microsoft partners.",
-        "Pioneer to implement the Azure IoT service for manufacturers using IoT hub, Azure function."
+        "Optimized monitor system of an IoT solution collecting 20M+ messages a day for  factory of AU Optronics, one of the largest display providers in the world",
+        "Developed an end-to-end Indoor Map solution to optimize management on real-time data, machine error, and labor scheduling for manufacturing factory with 100+ operators"
       ],
       tags: [
         "Azure", "FullStack Development", "IoT"
@@ -273,9 +273,8 @@ const workExperiences = {
       date: "Jul. 2020 – Aug. 2020",
       desc: "Designed and developed language agnostic RESTful APIs using ASP .NET Core on conversational AIoT voice service and deployed PaaS solutions on Azure service for more than 30 business customers.",
       descBullets: [
-        "Pioneer to implemented manipulations and transactions of Neo4j and SQL without concurrent issues.",
-        "Created and executed  more than 100 automated test cases using MSTest, Swagger and NLog to debug, identify and document the program bugs.",
-        "Led and implemented CI process for development using Bitbucket pipeline to increase delivery efficiency by 20\%."
+        "Designed and developed language agnostic RESTful APIs and microservices using ASP .NET Core for digital management system and deployed it on Azure to serve 30+ business customers",
+        "Redesigned database specs on Neo4j for a  better read/write performance and prevented concurrent issues from executing transactions with SQL",
       ],
       tags: [
         ".NET core", "C#", "REST-API", "Azure",  "Neo4j", "SQL", "Swagger", "NUnit", "Bitbucket"

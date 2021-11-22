@@ -28,11 +28,12 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                <TypeMain wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
-                <span>
-                I'm
+                {/* <TypeMain wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "} */}
+                <span>{greeting.title}</span>{" "}
+                <span className="greeting-name">
+                Tin
                 </span>
-                <TypeLoop wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-text"} string={greeting.title}/>{" "}
+                <TypeLoop wrapperClassName={isDark ? "dark-mode greeting-text" : "greeting-title"} string={greeting.title}/>{" "}
                 {/* {greeting.title}{" "} */}
                 {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
