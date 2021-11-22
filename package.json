@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "https://tin0819tin.github.io/tinFolio",
+  "name": "tin0819tin.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
     "particles.js": "^2.0.0",
     "radium": "^0.26.1",
@@ -56,6 +55,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.1"
   }
 }
