@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tinFolio/static/css/main.7c42ebe8.chunk.css",
-    "main.js": "/tinFolio/static/js/main.0cc73bca.chunk.js",
-    "main.js.map": "/tinFolio/static/js/main.0cc73bca.chunk.js.map",
+    "main.js": "/tinFolio/static/js/main.57d006f3.chunk.js",
+    "main.js.map": "/tinFolio/static/js/main.57d006f3.chunk.js.map",
     "runtime-main.js": "/tinFolio/static/js/runtime-main.3e700943.js",
     "runtime-main.js.map": "/tinFolio/static/js/runtime-main.3e700943.js.map",
     "static/js/2.8d27f9b9.chunk.js": "/tinFolio/static/js/2.8d27f9b9.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.1965aa84.chunk.js": "/tinFolio/static/js/4.1965aa84.chunk.js",
     "static/js/4.1965aa84.chunk.js.map": "/tinFolio/static/js/4.1965aa84.chunk.js.map",
     "index.html": "/tinFolio/index.html",
-    "precache-manifest.315c75392b836887ba1ca22037242583.js": "/tinFolio/precache-manifest.315c75392b836887ba1ca22037242583.js",
+    "precache-manifest.253f201dbc832ba4f57d348d84468438.js": "/tinFolio/precache-manifest.253f201dbc832ba4f57d348d84468438.js",
     "service-worker.js": "/tinFolio/service-worker.js",
     "static/css/3.58cbc8a4.chunk.css.map": "/tinFolio/static/css/3.58cbc8a4.chunk.css.map",
     "static/css/4.7ce08401.chunk.css.map": "/tinFolio/static/css/4.7ce08401.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.3e700943.js",
     "static/js/2.8d27f9b9.chunk.js",
     "static/css/main.7c42ebe8.chunk.css",
-    "static/js/main.0cc73bca.chunk.js"
+    "static/js/main.57d006f3.chunk.js"
   ]
 }
