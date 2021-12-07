@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f621f5493182ccdb68502b98e8a65eee",
+    "revision": "b3766f0ee271f0d21304661a0005af07",
     "url": "/tinFolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/css/4.7ce08401.chunk.css"
   },
   {
-    "revision": "9b1a8a78b0f5814c45e4",
+    "revision": "753854baf458b75a59a4",
     "url": "/tinFolio/static/css/main.7c42ebe8.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/js/4.1965aa84.chunk.js"
   },
   {
-    "revision": "9b1a8a78b0f5814c45e4",
-    "url": "/tinFolio/static/js/main.55ac67ae.chunk.js"
+    "revision": "753854baf458b75a59a4",
+    "url": "/tinFolio/static/js/main.0cc73bca.chunk.js"
   },
   {
     "revision": "cf7479385437f39c5c7c",
