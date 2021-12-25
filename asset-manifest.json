@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tinFolio/static/css/main.7c42ebe8.chunk.css",
-    "main.js": "/tinFolio/static/js/main.e12cf326.chunk.js",
-    "main.js.map": "/tinFolio/static/js/main.e12cf326.chunk.js.map",
-    "runtime-main.js": "/tinFolio/static/js/runtime-main.3e700943.js",
-    "runtime-main.js.map": "/tinFolio/static/js/runtime-main.3e700943.js.map",
+    "main.css": "/tinFolio/static/css/main.e84e7a78.chunk.css",
+    "main.js": "/tinFolio/static/js/main.5fdd44b3.chunk.js",
+    "main.js.map": "/tinFolio/static/js/main.5fdd44b3.chunk.js.map",
+    "runtime-main.js": "/tinFolio/static/js/runtime-main.89155d9f.js",
+    "runtime-main.js.map": "/tinFolio/static/js/runtime-main.89155d9f.js.map",
     "static/js/2.8d27f9b9.chunk.js": "/tinFolio/static/js/2.8d27f9b9.chunk.js",
     "static/js/2.8d27f9b9.chunk.js.map": "/tinFolio/static/js/2.8d27f9b9.chunk.js.map",
     "static/css/3.58cbc8a4.chunk.css": "/tinFolio/static/css/3.58cbc8a4.chunk.css",
     "static/js/3.3d8a184c.chunk.js": "/tinFolio/static/js/3.3d8a184c.chunk.js",
     "static/js/3.3d8a184c.chunk.js.map": "/tinFolio/static/js/3.3d8a184c.chunk.js.map",
-    "static/css/4.7ce08401.chunk.css": "/tinFolio/static/css/4.7ce08401.chunk.css",
+    "static/css/4.ca4350da.chunk.css": "/tinFolio/static/css/4.ca4350da.chunk.css",
     "static/js/4.1965aa84.chunk.js": "/tinFolio/static/js/4.1965aa84.chunk.js",
     "static/js/4.1965aa84.chunk.js.map": "/tinFolio/static/js/4.1965aa84.chunk.js.map",
     "index.html": "/tinFolio/index.html",
-    "precache-manifest.3e8206f5b4b698c7e37636fad41ebe4e.js": "/tinFolio/precache-manifest.3e8206f5b4b698c7e37636fad41ebe4e.js",
+    "precache-manifest.eb47307b44139df1e6f207b85b841836.js": "/tinFolio/precache-manifest.eb47307b44139df1e6f207b85b841836.js",
     "service-worker.js": "/tinFolio/service-worker.js",
     "static/css/3.58cbc8a4.chunk.css.map": "/tinFolio/static/css/3.58cbc8a4.chunk.css.map",
-    "static/css/4.7ce08401.chunk.css.map": "/tinFolio/static/css/4.7ce08401.chunk.css.map",
-    "static/css/main.7c42ebe8.chunk.css.map": "/tinFolio/static/css/main.7c42ebe8.chunk.css.map",
+    "static/css/4.ca4350da.chunk.css.map": "/tinFolio/static/css/4.ca4350da.chunk.css.map",
+    "static/css/main.e84e7a78.chunk.css.map": "/tinFolio/static/css/main.e84e7a78.chunk.css.map",
     "static/js/2.8d27f9b9.chunk.js.LICENSE.txt": "/tinFolio/static/js/2.8d27f9b9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tinFolio/static/media/Montserrat-Regular.847627bf.ttf",
     "static/media/aielloLogo.png": "/tinFolio/static/media/aielloLogo.87d245f3.png",
@@ -36,9 +36,9 @@
     "static/media/TalkCard.scss": "/tinFolio/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e700943.js",
+    "static/js/runtime-main.89155d9f.js",
     "static/js/2.8d27f9b9.chunk.js",
-    "static/css/main.7c42ebe8.chunk.css",
-    "static/js/main.e12cf326.chunk.js"
+    "static/css/main.e84e7a78.chunk.css",
+    "static/js/main.5fdd44b3.chunk.js"
   ]
 }

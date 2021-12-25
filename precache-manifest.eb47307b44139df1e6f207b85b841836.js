@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3982b7b666a49308c2157d4f732a3646",
+    "revision": "101cf3b5b5f0601e796dab432849d78b",
     "url": "/tinFolio/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/css/3.58cbc8a4.chunk.css"
   },
   {
-    "revision": "7fa8129d40cfbf5b045f",
-    "url": "/tinFolio/static/css/4.7ce08401.chunk.css"
+    "revision": "03078603da111c422180",
+    "url": "/tinFolio/static/css/4.ca4350da.chunk.css"
   },
   {
-    "revision": "33cd7bf34709e54259cc",
-    "url": "/tinFolio/static/css/main.7c42ebe8.chunk.css"
+    "revision": "36c9a58f67b4199ab634",
+    "url": "/tinFolio/static/css/main.e84e7a78.chunk.css"
   },
   {
     "revision": "5e5506d09b3e6698a622",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/js/3.3d8a184c.chunk.js"
   },
   {
-    "revision": "7fa8129d40cfbf5b045f",
+    "revision": "03078603da111c422180",
     "url": "/tinFolio/static/js/4.1965aa84.chunk.js"
   },
   {
-    "revision": "33cd7bf34709e54259cc",
-    "url": "/tinFolio/static/js/main.e12cf326.chunk.js"
+    "revision": "36c9a58f67b4199ab634",
+    "url": "/tinFolio/static/js/main.5fdd44b3.chunk.js"
   },
   {
-    "revision": "cf7479385437f39c5c7c",
-    "url": "/tinFolio/static/js/runtime-main.3e700943.js"
+    "revision": "f31812900175a9613476",
+    "url": "/tinFolio/static/js/runtime-main.89155d9f.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
