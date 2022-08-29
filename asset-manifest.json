@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tinFolio/static/css/main.e84e7a78.chunk.css",
-    "main.js": "/tinFolio/static/js/main.e0abd32a.chunk.js",
-    "main.js.map": "/tinFolio/static/js/main.e0abd32a.chunk.js.map",
-    "runtime-main.js": "/tinFolio/static/js/runtime-main.7dab5307.js",
-    "runtime-main.js.map": "/tinFolio/static/js/runtime-main.7dab5307.js.map",
+    "main.js": "/tinFolio/static/js/main.adbfd197.chunk.js",
+    "main.js.map": "/tinFolio/static/js/main.adbfd197.chunk.js.map",
+    "runtime-main.js": "/tinFolio/static/js/runtime-main.78304a41.js",
+    "runtime-main.js.map": "/tinFolio/static/js/runtime-main.78304a41.js.map",
     "static/js/2.e55fd67c.chunk.js": "/tinFolio/static/js/2.e55fd67c.chunk.js",
     "static/js/2.e55fd67c.chunk.js.map": "/tinFolio/static/js/2.e55fd67c.chunk.js.map",
     "static/css/3.58cbc8a4.chunk.css": "/tinFolio/static/css/3.58cbc8a4.chunk.css",
-    "static/js/3.94471134.chunk.js": "/tinFolio/static/js/3.94471134.chunk.js",
-    "static/js/3.94471134.chunk.js.map": "/tinFolio/static/js/3.94471134.chunk.js.map",
+    "static/js/3.42d26b12.chunk.js": "/tinFolio/static/js/3.42d26b12.chunk.js",
+    "static/js/3.42d26b12.chunk.js.map": "/tinFolio/static/js/3.42d26b12.chunk.js.map",
     "static/css/4.ca4350da.chunk.css": "/tinFolio/static/css/4.ca4350da.chunk.css",
     "static/js/4.f33d604c.chunk.js": "/tinFolio/static/js/4.f33d604c.chunk.js",
     "static/js/4.f33d604c.chunk.js.map": "/tinFolio/static/js/4.f33d604c.chunk.js.map",
     "index.html": "/tinFolio/index.html",
-    "precache-manifest.877f1c3ac5ef019818283b27cac97f00.js": "/tinFolio/precache-manifest.877f1c3ac5ef019818283b27cac97f00.js",
+    "precache-manifest.9404abfc81d4ccebc3065c79759e4946.js": "/tinFolio/precache-manifest.9404abfc81d4ccebc3065c79759e4946.js",
     "service-worker.js": "/tinFolio/service-worker.js",
     "static/css/3.58cbc8a4.chunk.css.map": "/tinFolio/static/css/3.58cbc8a4.chunk.css.map",
     "static/css/4.ca4350da.chunk.css.map": "/tinFolio/static/css/4.ca4350da.chunk.css.map",
@@ -37,9 +37,9 @@
     "static/media/TalkCard.scss": "/tinFolio/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dab5307.js",
+    "static/js/runtime-main.78304a41.js",
     "static/js/2.e55fd67c.chunk.js",
     "static/css/main.e84e7a78.chunk.css",
-    "static/js/main.e0abd32a.chunk.js"
+    "static/js/main.adbfd197.chunk.js"
   ]
 }

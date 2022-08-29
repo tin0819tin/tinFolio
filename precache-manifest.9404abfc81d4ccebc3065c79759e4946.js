@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54815942f8b52b9870eeafaa9f906ab6",
+    "revision": "9a81440c71e27c669cdc7f054cf009f1",
     "url": "/tinFolio/index.html"
   },
   {
-    "revision": "8bf1448d057a208e73f9",
+    "revision": "2a8c535bc35c75645a9a",
     "url": "/tinFolio/static/css/3.58cbc8a4.chunk.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/css/4.ca4350da.chunk.css"
   },
   {
-    "revision": "ed73f5c98589f57d7677",
+    "revision": "313d46198d2ab0978ad0",
     "url": "/tinFolio/static/css/main.e84e7a78.chunk.css"
   },
   {
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinFolio/static/js/2.e55fd67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bf1448d057a208e73f9",
-    "url": "/tinFolio/static/js/3.94471134.chunk.js"
+    "revision": "2a8c535bc35c75645a9a",
+    "url": "/tinFolio/static/js/3.42d26b12.chunk.js"
   },
   {
     "revision": "66230a2a3638cf5086c9",
     "url": "/tinFolio/static/js/4.f33d604c.chunk.js"
   },
   {
-    "revision": "ed73f5c98589f57d7677",
-    "url": "/tinFolio/static/js/main.e0abd32a.chunk.js"
+    "revision": "313d46198d2ab0978ad0",
+    "url": "/tinFolio/static/js/main.adbfd197.chunk.js"
   },
   {
-    "revision": "4bd96e5cfaa018f1eec3",
-    "url": "/tinFolio/static/js/runtime-main.7dab5307.js"
+    "revision": "61db4044a1d6af0abea3",
+    "url": "/tinFolio/static/js/runtime-main.78304a41.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
